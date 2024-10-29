@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf")
+      format("truetype"),
+    url("../assets/fonts/static/Inter-Bold.ttf") format("truetype"),
+    url("../assets/fonts/static/Inter-Bold.ttf") format("truetype"),
+    url("../assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+div.socials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid red;
+}
+
+a {
+  border: 1px solid purple;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+div.card {
+  border: 1px solid black;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  margin: auto;
+  border-radius: 30px;
+}
