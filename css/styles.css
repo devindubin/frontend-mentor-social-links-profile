@@ -124,6 +124,10 @@ img {
   text-decoration: none;
 }
 
+.socials:hover {
+  background-color: var(--hsl-location-color);
+}
+
 .tag {
   letter-spacing: 1px;
   font-weight: 100;
